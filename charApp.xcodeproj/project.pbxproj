@@ -14,6 +14,7 @@
 		3FC7BCD11CEFE87A00CE5C16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC7BCCF1CEFE87A00CE5C16 /* LaunchScreen.storyboard */; };
 		3FC7BCDC1CEFE87A00CE5C16 /* charAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC7BCDB1CEFE87A00CE5C16 /* charAppTests.swift */; };
 		3FC7BCE71CEFE87A00CE5C16 /* charAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC7BCE61CEFE87A00CE5C16 /* charAppUITests.swift */; };
+		3FC7BCF51CEFF5B400CE5C16 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC7BCF41CEFF5B400CE5C16 /* ChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3FC7BCE21CEFE87A00CE5C16 /* charAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = charAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC7BCE61CEFE87A00CE5C16 /* charAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = charAppUITests.swift; sourceTree = "<group>"; };
 		3FC7BCE81CEFE87A00CE5C16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC7BCF41CEFF5B400CE5C16 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				3FC7BCCD1CEFE87A00CE5C16 /* Assets.xcassets */,
 				3FC7BCCF1CEFE87A00CE5C16 /* LaunchScreen.storyboard */,
 				3FC7BCD21CEFE87A00CE5C16 /* Info.plist */,
+				3FC7BCF41CEFF5B400CE5C16 /* ChatViewController.swift */,
 			);
 			path = charApp;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FC7BCC91CEFE87A00CE5C16 /* ViewController.swift in Sources */,
+				3FC7BCF51CEFF5B400CE5C16 /* ChatViewController.swift in Sources */,
 				3FC7BCC71CEFE87A00CE5C16 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
